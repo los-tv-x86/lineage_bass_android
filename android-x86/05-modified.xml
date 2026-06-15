@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="android" name="Bliss-Bass/lineage_bass_android" remote="ghub" revision="lineage-21.0" />
+  <project path="android" name="lineage_bass_android" remote="los-tv-x86" />
 
   <project path="art" name="android_art" remote="los-tv-x86" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="los-tv-x86" groups="pdk" />

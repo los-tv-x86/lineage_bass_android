@@ -13,7 +13,7 @@
   <remote name="axon" fetch="https://github.com/axonasif/" />
   <remote name="sg" fetch="https://github.com/supremegamers" />
   <remote name="los-tv-x86"
-          fetch="https://github.com/LineageOS-TV-x86"
-          revision="lineage-21.0" />
+          fetch="https://github.com/los-tv-x86"
+          revision="lineage-23.2" />
 
 </manifest>

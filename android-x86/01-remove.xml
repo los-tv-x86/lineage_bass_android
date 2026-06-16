@@ -36,5 +36,6 @@
     <remove-project name="platform/external/swiftshader" />
 
     <remove-project name="platform/external/libva-utils" />
+    <remove-project name="platform/external/pciutils" />
 
 </manifest>

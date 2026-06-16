@@ -37,5 +37,6 @@
 
     <remove-project name="platform/external/libva-utils" />
     <remove-project name="platform/external/pciutils" />
+    <remove-project name="LineageOS/android_packages_apps_Catapult" />
 
 </manifest>

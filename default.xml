@@ -119,7 +119,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen,pdk-gs-arm" remote="aosp" />
   <project path="external/connectedappssdk" name="platform/external/connectedappssdk" groups="pdk" remote="aosp" />
-  <project path="external/conscrypt" name="LineageOS/android_external_conscrypt" groups="pdk" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" remote="aosp" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" remote="aosp" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" remote="aosp" />
   <project path="external/cronet" name="platform/external/cronet" groups="pdk" remote="aosp" />
@@ -180,7 +180,7 @@
   <project path="external/geojson-jackson" name="platform/external/geojson-jackson" groups="pdk" remote="aosp" />
   <project path="external/geonames" name="platform/external/geonames" groups="pdk" remote="aosp" />
   <project path="external/gflags" name="platform/external/gflags" groups="pdk" remote="aosp" />
-  <project path="external/giflib" name="LineageOS/android_external_giflib" groups="pdk,qcom_msm8x26" />
+  <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" groups="pdk" remote="aosp" />
   <project path="external/gmmlib" name="platform/external/gmmlib" groups="pdk" remote="aosp" />
   <project path="external/go-cmp" name="platform/external/go-cmp" groups="pdk" remote="aosp" />
@@ -227,7 +227,7 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
   <project path="external/iamf_tools" name="platform/external/iamf_tools" groups="pdk" remote="aosp" />
   <project path="external/icing" name="platform/external/icing" groups="pdk" remote="aosp" />
-  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" remote="aosp" />
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk" remote="aosp" />
   <project path="external/image_io" name="platform/external/image_io" groups="pdk" remote="aosp" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
@@ -514,7 +514,7 @@
   <project path="external/sg3_utils" name="platform/external/sg3_utils" groups="pdk" remote="aosp" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" remote="aosp" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" />
-  <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" remote="aosp" />
   <project path="external/smack" name="platform/external/smack" groups="pdk" remote="aosp" />
@@ -675,7 +675,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" remote="aosp" />
-  <project path="libcore" name="LineageOS/android_libcore" groups="pdk" />
+  <project path="libcore" name="platform/libcore" groups="pdk" remote="aosp" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
   <project path="packages/apps/AvatarPicker" name="platform/packages/apps/AvatarPicker" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -757,7 +757,7 @@
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="packages/modules/Bluetooth" name="LineageOS/android_packages_modules_Bluetooth" groups="pdk" />
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/modules/CellBroadcastService" name="LineageOS/android_packages_modules_CellBroadcastService" groups="pdk" />
+  <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" remote="aosp" />
   <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/ConfigInfrastructure" name="platform/packages/modules/ConfigInfrastructure" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Connectivity" name="LineageOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" />
@@ -770,7 +770,7 @@
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk" remote="aosp" />
-  <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" remote="aosp" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" remote="aosp" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" remote="aosp" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" remote="aosp" />
@@ -903,7 +903,7 @@
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
   <project path="system/incremental_delivery" name="platform/system/incremental_delivery" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
-  <project path="system/keymint" name="LineageOS/android_system_keymint" groups="pdk" />
+  <project path="system/keymint" name="platform/system/keymint" groups="pdk" remote="aosp" />
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" remote="aosp" />
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" remote="aosp" />
   <project path="system/libcppbor" name="platform/system/libcppbor" groups="pdk" remote="aosp" />
@@ -938,7 +938,7 @@
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" remote="aosp" />
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" remote="aosp" />
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" remote="aosp" />
-  <project path="system/timezone" name="LineageOS/android_system_timezone" groups="pdk" />
+  <project path="system/timezone" name="platform/system/timezone" groups="pdk" remote="aosp" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" remote="aosp" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" remote="aosp" />
   <project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" remote="aosp" />

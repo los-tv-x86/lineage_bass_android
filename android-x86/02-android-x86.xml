@@ -32,7 +32,7 @@
   <project path="external/libdrm" name="platform_external_libdrm" remote="los-tv-x86" revision="2.4.131/u-x86" />
   <project path="external/llvm-project" name="external_llvm-project" remote="los-tv-x86" revision="release_22.x" />
   <project path="external/mesa3d" name="external_mesa" remote="los-tv-x86" revision="26.0/main" />
-  <project path="external/minigbm" name="external_minigbm" remote="ag-github" revision="14-x86" />
+  <project path="external/minigbm" name="external_minigbm" remote="los-tv-x86" />
   <project path="external/hbm-prebuilts" name="external_hbm-prebuilts" remote="ag-github" revision="11" />
   <project path="prebuilts/mesa-build-deps" name="waydroid/android_prebuilts_mesa-tools" remote="ghub" revision="main" />
 

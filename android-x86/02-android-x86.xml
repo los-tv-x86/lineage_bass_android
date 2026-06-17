@@ -67,7 +67,7 @@
   <project path="hardware/x86power" name="hardware_x86power" remote="ag-github" revision="r11" />
 
   <!-- AOSP components but newer -->
-  <project path="external/toybox" name="android_external_toybox" remote="ag-github" revision="14" />
+  <project path="external/toybox" name="android_external_toybox" remote="los-tv-x86" />
   <project path="external/swiftshader" name="android_external_swiftshader" groups="pdk" remote="ag-github" revision="14-x86" />
 
   <!-- GloDroid -->

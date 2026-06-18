@@ -68,7 +68,6 @@
 
   <!-- AOSP components but newer -->
   <project path="external/toybox" name="android_external_toybox" remote="los-tv-x86" />
-  <project path="external/swiftshader" name="android_external_swiftshader" groups="pdk" remote="ag-github" revision="14-x86" />
 
   <!-- GloDroid -->
   <project path="glodroid/aospext" name="glodroid_aospext" remote="ag-github" revision="main" />

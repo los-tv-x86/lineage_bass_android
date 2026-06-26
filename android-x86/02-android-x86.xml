@@ -17,6 +17,7 @@
   <project path="hardware/libbt-vendor-intel" name="hardware_libbt-vendor-intel" remote="los-tv-x86" />
   <project path="hardware/gps" name="platform_hardware_gps" remote="los-tv-x86" />
   <project path="vendor/intel/hardware/interfaces" name="vendor_intel_hardware_interfaces" remote="los-tv-x86" sync-s="true" />
+  <project path="external/iptsd" name="external_iptsd" remote="los-tv-x86" />
 
   <!-- Firmware -->
   <project path="device/generic/firmware" name="device_generic_firmware" remote="ag-github" revision="main" />

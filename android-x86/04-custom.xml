@@ -8,6 +8,6 @@
   <project path="external/libisoburn" name="external_libisoburn" remote="ag-github" revision="11-x86" />
 
   <!-- Device tree -->
-  <project path="device/generic/x86_64_tablet" name="Bliss-Bass/android_device_generic_x86_64_tablet" remote="ghub" revision="lineage-21.0" sync-s="true" />
+  <project path="device/generic/x86_64_tablet" name="android_device_generic_x86_64_tablet" remote="los-tv-x86" sync-s="true" />
 
 </manifest>

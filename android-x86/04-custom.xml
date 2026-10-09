@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Initrd & installer -->
-  <project path="bootable/aaropa" name="bootable_aaropa" remote="los-tv-x86" />
+  <project path="bootable/aaropa" name="Bliss-Bass/bootable_aaropa" remote="ghub"
+           revision="8c6a69fd8d7728ceeddefd42470a488d9785339f" upstream="aaropa-local-prebuilt-23.2" dest-branch="aaropa-local-prebuilt-23.2"/>
 
   <project path="external/libburn" name="external_libburn" remote="ag-github" revision="11-x86" />
   <project path="external/libisofs" name="external_libisofs" remote="ag-github" revision="11-x86" />

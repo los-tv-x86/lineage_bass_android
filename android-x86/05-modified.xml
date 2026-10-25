@@ -13,7 +13,7 @@
   <project path="device/lineage/atv" name="android_device_lineage_atv" remote="los-tv-x86" />
   <project path="external/mksh" name="android_external_mksh" remote="los-tv-x86" groups="pdk" />
   <project path="frameworks/av" name="android_frameworks_av" remote="los-tv-x86" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="los-tv-x86" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="los-x86" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project path="frameworks/native" name="android_frameworks_native" remote="los-tv-x86" groups="pdk" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="los-tv-x86" groups="pdk,sysui-studio" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="los-tv-x86" groups="pdk-fs" />

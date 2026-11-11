@@ -8,10 +8,7 @@
   <project path="external/libisofs" name="external_libisofs" remote="ag-github" revision="11-x86" />
   <project path="external/libisoburn" name="external_libisoburn" remote="ag-github" revision="11-x86" />
 
-  <!-- Device tree. Moves to bass-private lineage-24.0 with 05-modified.xml. -->
+  <!-- Device tree. Moves to bass-core lineage-24.0 with 05-modified.xml. -->
   <project path="device/generic/x86_64_tablet" name="android_device_generic_x86_64_tablet" remote="los-tv-x86" revision="lineage-23.2" sync-s="true" />
-
-  <!-- Widevine L3 prebuilt (private) -->
-  <project path="vendor/google/proprietary/widevine-prebuilt" name="vendor_google_proprietary_widevine-prebuilt" remote="bass-private" revision="a16-x86_64" />
 
 </manifest>

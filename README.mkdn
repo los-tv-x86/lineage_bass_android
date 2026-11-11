@@ -15,6 +15,9 @@ Then to sync up:
 repo sync
 ```
 
-The x86 additions live in `android-x86/`. `05-modified.xml` lists the
+Bass-Core: the public x86 layer. The x86 additions live in `android-x86/`.
 Lineage/AOSP projects that carry x86 changes; it is enabled in `default.xml`
 once their lineage-24.0 branches exist on BlissBass-Private.
+
+Bass Commercial (vendor/ax86-lite, its addons and private prebuilts) adds its
+repos through local manifests from that vendor tree, never through this one.

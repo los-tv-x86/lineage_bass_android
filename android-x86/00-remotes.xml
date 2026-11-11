@@ -15,8 +15,10 @@
   <remote name="los-tv-x86"
           fetch="https://github.com/los-tv-x86"
           revision="lineage-23.2" />
-  <!-- lineage-24.0 forks of the Lineage/AOSP projects (05-modified.xml). -->
-  <remote name="bass-private"
+  <!-- Bass-Core lineage-24.0 forks of the Lineage/AOSP projects (05-modified.xml).
+       Staged on BlissBass-Private; repoint fetch at los-tv-x86 when published.
+       Commercial (Bass toolkit/addon) repos never go in this manifest. -->
+  <remote name="bass-core"
           fetch="ssh://git@github.com/BlissBass-Private"
           revision="lineage-24.0" />
 

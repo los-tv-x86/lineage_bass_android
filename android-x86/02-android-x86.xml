@@ -10,7 +10,7 @@
 
   <!-- Bluetooth, camera, GPS, sensors, thermal HALs & tools -->
   <project path="external/hcitools" name="external_hcitools" remote="los-tv-x86" />
-  <project path="external/thermal_daemon" name="external_thermal_daemon" remote="ag-github" revision="master" />
+  <project path="external/thermal_daemon" name="Bliss-Bass/external_thermal_daemon" remote="ghub" revision="master" />
   <project path="hardware/intel/libsensors" name="hardware_intel_libsensors" remote="ag-github" revision="u-x86" />
   <project path="hardware/liblights" name="platform_hardware_liblights" remote="ag-github" revision="u-x86" />
   <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="ag-github" revision="14-x86" />

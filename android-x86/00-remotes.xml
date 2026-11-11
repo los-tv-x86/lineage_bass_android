@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="maurossi" fetch="https://github.com/maurossi" />
+  <remote name="ag-gitlab" fetch="https://gitlab.com/android-generic" />
+  <remote name="ag-github" fetch="https://github.com/android-generic" />
+  <remote name="gl" fetch="https://gitlab.com" />
+  <remote name="bd" fetch="https://github.com/boringdroid" />
+  <remote name="ghub" fetch="https://github.com/" />
+  <remote name="hm" fetch="https://github.com/hmtheboy154" />
+  <remote name="axon" fetch="https://github.com/axonasif/" />
+  <remote name="sg" fetch="https://github.com/supremegamers" />
+  <!-- x86 HAL and graphics repos that only carry lineage-23.2 so far. -->
+  <remote name="los-tv-x86"
+          fetch="https://github.com/los-tv-x86"
+          revision="lineage-23.2" />
+  <!-- lineage-24.0 forks of the Lineage/AOSP projects (05-modified.xml). -->
+  <remote name="bass-private"
+          fetch="ssh://git@github.com/BlissBass-Private"
+          revision="lineage-24.0" />
+
+</manifest>

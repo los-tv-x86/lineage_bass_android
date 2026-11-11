@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Lineage/AOSP projects carrying the x86 changes, rebased from los-tv-x86
+       lineage-23.2 onto lineage-24.0 and hosted on BlissBass-Private.
+       default.xml does not include this file until those lineage-24.0 branches
+       are pushed; until then these paths sync from upstream lineage-24.0.
+       When enabling it, also move device/generic/x86_64_tablet in
+       04-custom.xml to remote="bass-private". -->
+  <remove-project name="LineageOS/android_art" />
+  <remove-project name="LineageOS/android_bionic" />
+  <remove-project name="LineageOS/android_bootable_recovery" />
+  <remove-project name="LineageOS/android_build_soong" />
+  <remove-project name="LineageOS/android_device_google_atv" />
+  <remove-project name="LineageOS/android_device_lineage_atv" />
+  <remove-project name="LineageOS/android_external_mksh" />
+  <remove-project name="platform/external/toybox" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="LineageOS/android_hardware_interfaces" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
+  <remove-project name="platform/packages/modules/NetworkStack" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/system/apex" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_system_media" />
+  <remove-project name="platform/system/hardware/interfaces" />
+  <remove-project name="platform/system/linkerconfig" />
+  <remove-project name="LineageOS/android_system_vold" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_packages_apps_Catapult" />
+
+  <project path="art" name="android_art" remote="bass-private" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="bass-private" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="bass-private" groups="pdk" />
+  <project path="build/soong" name="android_build_soong" remote="bass-private" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/google/atv" name="android_device_google_atv" remote="bass-private" groups="device,broadcom_pdk,generic_fs,pdk" />
+  <project path="device/lineage/atv" name="android_device_lineage_atv" remote="bass-private" />
+  <project path="external/mksh" name="android_external_mksh" remote="bass-private" groups="pdk" />
+  <project path="external/toybox" name="android_external_toybox" remote="bass-private" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="bass-private" groups="pdk" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="bass-private" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="bass-private" groups="pdk" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="bass-private" groups="pdk,sysui-studio" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bass-private" groups="pdk-fs" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="bass-private" groups="pdk" />
+  <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="bass-private" groups="pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="bass-private" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/apex" name="android_system_apex" remote="bass-private" groups="pdk" />
+  <project path="system/core" name="android_system_core" remote="bass-private" groups="pdk" />
+  <project path="system/media" name="android_system_media" remote="bass-private" groups="pdk" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="bass-private" groups="pdk" />
+  <project path="system/vold" name="android_system_vold" remote="bass-private" groups="pdk" />
+  <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" groups="pdk,sysui-studio" remote="bass-private" />
+  <project path="packages/apps/Catapult" name="android_packages_apps_Catapult" remote="bass-private" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="bass-private" groups="pdk-fs" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="bass-private" />
+</manifest>

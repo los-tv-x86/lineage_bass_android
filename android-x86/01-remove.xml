@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- AOSP/Lineage repos replaced by the x86 versions in 02-04. The forked
+         Lineage/AOSP projects are removed in 05-modified.xml instead. -->
+    <remove-project name="platform/external/drm_hwcomposer" />
+    <remove-project name="platform/external/libdrm" />
+    <remove-project name="platform/external/minigbm" />
+    <remove-project name="LineageOS/android_external_libncurses" />
+    <remove-project name="LineageOS/android_external_nano" />
+    <remove-project name="LineageOS/android_external_ntfs-3g" />
+    <remove-project name="platform/external/mesa3d" />
+
+    <remove-project name="platform/external/gmmlib" />
+    <remove-project name="platform/external/libva" />
+    <remove-project name="platform/external/libva-utils" />
+    <remove-project name="platform/external/pciutils" />
+
+    <!-- Android 17 ships libburnia; the installer uses external/lib{burn,isofs,isoburn}. -->
+    <remove-project name="platform/external/libburnia/libburn" />
+    <remove-project name="platform/external/libburnia/libisoburn" />
+    <remove-project name="platform/external/libburnia/libisofs" />
+
+</manifest>

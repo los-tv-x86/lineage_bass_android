@@ -9,6 +9,6 @@
   <project path="external/libisoburn" name="external_libisoburn" remote="ag-github" revision="11-x86" />
 
   <!-- Device tree. Moves to bass-core lineage-24.0 with 05-modified.xml. -->
-  <project path="device/generic/x86_64_tablet" name="android_device_generic_x86_64_tablet" remote="los-tv-x86" revision="lineage-23.2" sync-s="true" />
+  <project path="device/generic/x86_64_tablet" name="android_device_generic_x86_64_tablet" remote="bass-core" sync-s="true" />
 
 </manifest>

@@ -8,16 +8,17 @@ LineageOS 24.0 (Android 17) with the x86 hardware layer used by Bass:Lineout.
 
 To initialize your local repository, use a command like this:
 ```
-repo init -u ssh://git@github.com/BlissBass-Private/lineage_bass_android.git -b lineage-24.0 --git-lfs
+repo init -u https://github.com/los-tv-x86/lineage_bass_android.git -b lineage-24.0 --git-lfs
 ```
 Then to sync up:
 ```
 repo sync
 ```
 
-Bass-Core: the public x86 layer. The x86 additions live in `android-x86/`.
-Lineage/AOSP projects that carry x86 changes; it is enabled in `default.xml`
-once their lineage-24.0 branches exist on BlissBass-Private.
+Bass-Core is the public x86 layer. The x86 additions live in `android-x86/`:
+`05-modified.xml` swaps the Lineage/AOSP projects that carry x86 changes for their
+los-tv-x86 lineage-24.0 forks, and `02`-`04` add the x86 hardware, graphics and
+device repos.
 
-Bass Commercial (vendor/ax86-lite, its addons and private prebuilts) adds its
-repos through local manifests from that vendor tree, never through this one.
+Downstream products add their own repos through local manifests, never through
+this one.

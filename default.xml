@@ -1108,5 +1108,5 @@
   <include name="android-x86/02-android-x86.xml" />
   <include name="android-x86/03-extras.xml" />
   <include name="android-x86/04-custom.xml" />
-  <!-- <include name="android-x86/05-modified.xml" /> -->
+  <include name="android-x86/05-modified.xml" />
 </manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Audio -->
-  <project path="external/alsa-lib" name="external_alsa-lib" remote="ag-github" revision="v-x86" />
+  <project path="external/alsa-lib" name="external_alsa-lib" remote="bass-core" />
   <project path="external/alsa-utils" name="external_alsa-utils" remote="los-tv-x86" />
   <!-- Note : libncurses is required for alsa_mixer -->
   <project path="external/alsa-ucm-conf" name="external_alsa-ucm-conf" remote="ag-github" revision="pie-x86" />
@@ -16,11 +16,11 @@
   <project path="hardware/libsensors" name="platform_hardware_libsensors" remote="ag-github" revision="14-x86" />
   <project path="hardware/libbt-vendor-intel" name="hardware_libbt-vendor-intel" remote="los-tv-x86" />
   <project path="hardware/gps" name="platform_hardware_gps" remote="los-tv-x86" />
-  <project path="vendor/intel/hardware/interfaces" name="vendor_intel_hardware_interfaces" remote="los-tv-x86" sync-s="true" />
+  <project path="vendor/intel/hardware/interfaces" name="vendor_intel_hardware_interfaces" remote="bass-core" sync-s="true" />
   <project path="external/iptsd" name="external_iptsd" remote="los-tv-x86" />
 
   <!-- Firmware -->
-  <project path="device/generic/firmware" name="device_generic_firmware" remote="ag-github" revision="main" />
+  <project path="device/generic/firmware" name="device_generic_firmware" remote="bass-core" />
   <project path="vendor/silead/proprietary/firmware" name="vendor_silead_proprietary_firmware" remote="ag-github" revision="master" />
 
   <!-- Graphics -->
@@ -30,10 +30,10 @@
   <project path="external/drm_hwcomposer_celadon" name="external_drm_hwcomposer" remote="ag-github" revision="celadon" />
   <project path="external/drmfb-composer" name="external_drmfb-composer" remote="los-tv-x86" />
   <project path="external/gbm_gralloc" name="external_gbm_gralloc" remote="ag-github" revision="main" />
-  <project path="external/libdrm" name="platform_external_libdrm" remote="los-tv-x86" revision="2.4.131/u-x86" />
+  <project path="external/libdrm" name="platform_external_libdrm" remote="bass-core" />
   <project path="external/llvm-project" name="external_llvm-project" remote="los-tv-x86" revision="release_22.x" />
-  <project path="external/mesa3d" name="external_mesa" remote="los-tv-x86" revision="26.0/main" />
-  <project path="external/minigbm" name="external_minigbm" remote="los-tv-x86" />
+  <project path="external/mesa3d" name="external_mesa" remote="bass-core" />
+  <project path="external/minigbm" name="external_minigbm" remote="bass-core" />
   <project path="external/hbm-prebuilts" name="external_hbm-prebuilts" remote="ag-github" revision="11" />
   <project path="prebuilts/mesa-build-deps" name="waydroid/android_prebuilts_mesa-tools" remote="ghub" revision="main" />
 
@@ -60,7 +60,7 @@
   <project path="external/efivar" name="external_efivar" remote="ag-github" revision="main" />
   <project path="external/evtest" name="external_evtest" remote="ag-github" revision="master" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los-tv-x86" revision="6.5" />
-  <project path="external/pciutils" name="external_pciutils" remote="los-tv-x86" />
+  <project path="external/pciutils" name="external_pciutils" remote="bass-core" />
   <project path="external/s2tc" name="external_s2tc" remote="los-tv-x86" />
   <project path="external/tree" name="external_tree" remote="ag-gitlab" revision="u-x86" />
 
@@ -68,7 +68,7 @@
   <project path="hardware/x86power" name="hardware_x86power" remote="ag-github" revision="r11" />
 
   <!-- GloDroid -->
-  <project path="glodroid/aospext" name="glodroid_aospext" remote="ag-github" revision="main" />
+  <project path="glodroid/aospext" name="glodroid_aospext" remote="bass-core" />
   <!-- put libcamera here if needed -->
 
   <!-- linux-surface -->

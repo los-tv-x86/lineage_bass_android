@@ -15,11 +15,11 @@
   <remote name="los-tv-x86"
           fetch="https://github.com/los-tv-x86"
           revision="lineage-23.2" />
-  <!-- Bass-Core lineage-24.0 forks of the Lineage/AOSP projects (05-modified.xml).
-       Staged on BlissBass-Private; repoint fetch at los-tv-x86 when published.
+  <!-- Bass-Core lineage-24.0 branches on los-tv-x86: forks of the Lineage/AOSP projects
+       (05-modified.xml) and the x86 repos that needed Android 17 fixes.
        Commercial (Bass toolkit/addon) repos never go in this manifest. -->
   <remote name="bass-core"
-          fetch="ssh://git@github.com/BlissBass-Private"
+          fetch="https://github.com/los-tv-x86"
           revision="lineage-24.0" />
 
 </manifest>
